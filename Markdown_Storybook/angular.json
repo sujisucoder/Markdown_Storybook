@@ -35,6 +35,7 @@
               "node_modules/prismjs/components/prism-csharp.min.js", 
               "node_modules/prismjs/components/prism-css.min.js",
               "node_modules/mermaid/dist/mermaid.min.js"
+              
             ]
           },
           "configurations": {
