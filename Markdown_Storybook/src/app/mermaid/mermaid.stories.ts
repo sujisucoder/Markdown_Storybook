@@ -15,7 +15,7 @@ const metaDetail: Meta<MermaidComponent> = {
    * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'Mermaid',
+  title: 'Private/Mermaid',
   component: MermaidComponent,
   decorators:[
     moduleMetadata({
@@ -41,7 +41,7 @@ const actionsData = {
 };
 
 
-export const Data: StoryDetail = {
+export const PrivateMermaid: StoryDetail = {
   render: () => ({
     props: {
       task: {
