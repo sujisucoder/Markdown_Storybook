@@ -36,6 +36,7 @@
     "@storybook/blocks": "^7.0.10",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/jasmine": "~4.3.0",
+    "chromatic": "^6.17.4",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
