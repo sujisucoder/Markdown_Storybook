@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-markdown',
-  template: `<markdown class="variable-binding" [data]="markdown"></markdown>`,
+  templateUrl: './markdown.component.html',
   styleUrls: ['./markdown.component.css']
 })
 export class MarkdownComponent {
