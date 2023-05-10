@@ -575,21 +575,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<Button>",
-                "defaultValue": "{\r\n  title: 'Example/Button',\r\n  component: Button,\r\n  tags: ['autodocs'],\r\n  render: (args: Button) => ({\r\n    props: {\r\n      backgroundColor: null,\r\n      ...args,\r\n    },\r\n  }),\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    },\r\n  },\r\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "src/stories/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<Header>",
                 "defaultValue": "{\r\n  title: 'Example/Header',\r\n  component: Header,\r\n  // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/angular/writing-docs/autodocs\r\n  tags: ['autodocs'],\r\n  render: (args) => ({ props: args }),\r\n  decorators: [\r\n    moduleMetadata({\r\n      declarations: [Button],\r\n      imports: [CommonModule],\r\n    }),\r\n  ],\r\n  parameters: {\r\n    // More on how to position stories at: https://storybook.js.org/docs/angular/configure/story-layout\r\n    layout: 'fullscreen',\r\n  },\r\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<Button>",
+                "defaultValue": "{\r\n  title: 'Example/Button',\r\n  component: Button,\r\n  tags: ['autodocs'],\r\n  render: (args: Button) => ({\r\n    props: {\r\n      backgroundColor: null,\r\n      ...args,\r\n    },\r\n  }),\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    },\r\n  },\r\n}"
             },
             {
                 "name": "meta",
@@ -658,8 +658,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<Button>",
-                "file": "src/stories/Button.stories.ts",
+                "rawtype": "StoryObj<Header>",
+                "file": "src/stories/Header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -669,8 +669,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<Header>",
-                "file": "src/stories/Header.stories.ts",
+                "rawtype": "StoryObj<Button>",
+                "file": "src/stories/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -865,19 +865,6 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "src/stories/Button.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<Button>",
-                    "file": "src/stories/Button.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 177
-                }
-            ],
             "src/stories/Header.stories.ts": [
                 {
                     "name": "Story",
@@ -885,6 +872,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<Header>",
                     "file": "src/stories/Header.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 177
+                }
+            ],
+            "src/stories/Button.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<Button>",
+                    "file": "src/stories/Button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
