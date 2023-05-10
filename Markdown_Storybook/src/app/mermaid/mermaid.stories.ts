@@ -5,7 +5,6 @@ import { action } from '@storybook/addon-actions';
 import type { Meta, StoryObj } from '@storybook/angular';
 import { CommonModule } from '@angular/common';
 
-
 import { applicationConfig } from '@storybook/angular';
 import { importProvidersFrom } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
