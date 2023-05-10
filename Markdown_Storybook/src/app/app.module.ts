@@ -3,12 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MermaidComponent } from './mermaid/mermaid.component';
+
+
 import { MarkdownModule } from 'ngx-markdown';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MermaidComponent
   ],
   imports: [
     BrowserModule,
