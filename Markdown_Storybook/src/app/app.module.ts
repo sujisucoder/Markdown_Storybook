@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MarkdownComponent } from './markdown/markdown.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { MermaidComponent } from './mermaid/mermaid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MarkdownComponent
+    MarkdownComponent,
+    MermaidComponent
   ],
   imports: [
     BrowserModule,
