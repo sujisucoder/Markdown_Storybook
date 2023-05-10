@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { MarkdownComponent } from './markdown/markdown.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MarkdownComponent
   ],
   imports: [
     BrowserModule,
