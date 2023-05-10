@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "storybook": "ng run Markdown_Storybook:storybook",
-    "build-storybook": "ng run Markdown_Storybook:build-storybook"
+    "build-storybook": "ng run Markdown_Storybook:build-storybook",
+    "chromatic": "npx chromatic --project-token=a6041d55f21f"
   },
   "private": true,
   "dependencies": {
@@ -47,5 +48,7 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.0.10",
     "typescript": "~5.0.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "markdown-storybook@0.0.0"
 }
