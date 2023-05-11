@@ -1,19 +1,60 @@
 {
-  "name": "markdown_storybook",
-  "version": "1.0.0",
-  "description": "��#\u0000 \u0000M\u0000a\u0000r\u0000k\u0000d\u0000o\u0000w\u0000n\u0000_\u0000S\u0000t\u0000o\u0000r\u0000y\u0000b\u0000o\u0000o\u0000k\u0000\r\u0000 \u0000",
-  "main": "index.js",
+  "name": "markdown-storybook",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "storybook": "ng run Markdown_Storybook:storybook",
+    "build-storybook": "ng run Markdown_Storybook:build-storybook",
+    "chromatic": "npx chromatic --project-token=a6041d55f21f"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sujisucoder/Markdown_Storybook.git"
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^16.0.0",
+    "@angular/common": "^16.0.0",
+    "@angular/compiler": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@angular/forms": "^16.0.0",
+    "@angular/platform-browser": "^16.0.0",
+    "@angular/platform-browser-dynamic": "^16.0.0",
+    "@angular/router": "^16.0.0",
+    "bootstrap": "^5.2.3",
+    "marked": "^4.3.0",
+    "mermaid": "^10.1.0",
+    "ngx-markdown": "^16.0.0",
+    "prismjs": "^1.28.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.13.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sujisucoder/Markdown_Storybook/issues"
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^16.0.0",
+    "@angular/cli": "~16.0.0",
+    "@angular/compiler-cli": "^16.0.0",
+    "@compodoc/compodoc": "^1.1.19",
+    "@storybook/addon-essentials": "^7.0.10",
+    "@storybook/addon-interactions": "^7.0.10",
+    "@storybook/addon-links": "^7.0.10",
+    "@storybook/angular": "^7.0.10",
+    "@storybook/blocks": "^7.0.10",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/jasmine": "~4.3.0",
+    "@types/marked": "^4.3.0",
+    "chromatic": "^6.17.4",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.10",
+    "typescript": "~5.0.2"
   },
-  "homepage": "https://github.com/sujisucoder/Markdown_Storybook#readme"
+  "readme": "ERROR: No README data found!",
+  "_id": "markdown-storybook@0.0.0"
 }
