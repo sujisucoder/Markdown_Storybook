@@ -451,7 +451,7 @@
         },
         {
             "name": "TaskComponent",
-            "id": "component-TaskComponent-b56e7d1226ffca8816dfdb3c1cc7048a265fad8dc192c61af5b78aff35ebdb10382db4d1c27496d3af86012fc9155c010a6abab53d60e4326d59a2d1f3f62d10",
+            "id": "component-TaskComponent-95f3a1ac09cf086d3b3ded5ceff554c92a53079d668ebc3bff0fa5eb1f2a6fb48600cc26fdaefb311f59dbb14efa8f3e29e7d7f930de3cde49ee310731fd7004",
             "file": "src/app/task/task.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -505,7 +505,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'app-simpletask',\n  templateUrl: './task.component.html',\n  styleUrls: ['./task.component.css']\n})\nexport class TaskComponent {\n  @Input()\n  task?: any = { title: 'sojem', state: '', id: '' };\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onPinTask = new EventEmitter<Event>();\n\n  // tslint:disable-next-line: no-output-on-prefix\n  @Output()\n  onArchiveTask = new EventEmitter<Event>();\n}",
+            "sourceCode": "import { Component, Input, Output, EventEmitter } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-simpletask',\r\n  templateUrl: './task.component.html',\r\n  styleUrls: ['./task.component.css']\r\n})\r\nexport class TaskComponent {\r\n  @Input()\r\n  task?: any = { title: 'sojem', state: '', id: '' };\r\n\r\n  // tslint:disable-next-line: no-output-on-prefix\r\n  @Output()\r\n  onPinTask = new EventEmitter<Event>();\r\n\r\n  // tslint:disable-next-line: no-output-on-prefix\r\n  @Output()\r\n  onArchiveTask = new EventEmitter<Event>();\r\n}",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -514,19 +514,19 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "<div class=\"list-item\">\n    <label [attr.aria-label]=\"task.title + ''\" for=\"title\">\n      <input\n        type=\"text\"\n        [value]=\"task.title\"\n        readonly=\"true\"\n        id=\"title\"\n        name=\"title\"\n      />\n    </label>\n  </div>\n"
+            "templateData": "<div class=\"list-item\">\r\n    <label [attr.aria-label]=\"task.title + ''\" for=\"title\">\r\n      <input\r\n        type=\"text\"\r\n        [value]=\"task.title\"\r\n        readonly=\"true\"\r\n        id=\"title\"\r\n        name=\"title\"\r\n      />\r\n    </label>\r\n  </div>\r\n"
         }
     ],
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-b26ebd3cd2699a095832845c5aead07c7450336c80faa60293989a4e82eafdc2f28497985d7eee875b5cbeec4dab064b169b790fce5dcfa5165e3b26c19f3565",
+            "id": "module-AppModule-4de4cd0bb57d27fa8c2ec7537ba6d93d74395f02b0807d54987e1dd77a7a5d4d4a2dafe52e76b98cc94bb44afd7179d769cde7c34399a1b1c5fb21b851c1dbd2",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\n\r\nimport { AppRoutingModule } from './app-routing.module';\r\nimport { AppComponent } from './app.component';\r\nimport { MarkdownComponent } from './markdown/markdown.component';\r\nimport { MarkdownModule } from 'ngx-markdown';\r\nimport { MermaidComponent } from './mermaid/mermaid.component';\nimport { TaskComponent } from './task/task.component';\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    MarkdownComponent,\r\n    MermaidComponent,\r\n    TaskComponent\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    AppRoutingModule,\r\n    MarkdownModule.forRoot(),\r\n  ],\r\n  providers: [],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { BrowserModule } from '@angular/platform-browser';\r\n\r\nimport { AppRoutingModule } from './app-routing.module';\r\nimport { AppComponent } from './app.component';\r\nimport { MarkdownComponent } from './markdown/markdown.component';\r\nimport { MarkdownModule } from 'ngx-markdown';\r\nimport { MermaidComponent } from './mermaid/mermaid.component';\r\nimport { TaskComponent } from './task/task.component';\r\n\r\n@NgModule({\r\n  declarations: [\r\n    AppComponent,\r\n    MarkdownComponent,\r\n    MermaidComponent,\r\n    TaskComponent\r\n  ],\r\n  imports: [\r\n    BrowserModule,\r\n    AppRoutingModule,\r\n    MarkdownModule.forRoot(),\r\n  ],\r\n  providers: [],\r\n  bootstrap: [AppComponent]\r\n})\r\nexport class AppModule { }\r\n",
             "children": [
                 {
                     "type": "providers",
@@ -577,13 +577,13 @@
         },
         {
             "name": "AppRoutingModule",
-            "id": "module-AppRoutingModule-78922b3ae99d2c5249b333980bd5afde1b120b2cc6fedfd41b8b2cc90f279797cb4b22e183bf7e1d1dfab8c6100e77e7812c110234d81f866f544f28a3e18b15",
+            "id": "module-AppRoutingModule-4518c33195180c88b148f5ad346bbd509e37db201ff0191c9bd5d00989bc674a7e8476b2298b5f61b74b4fa3379b6d71a3615e2cc472074cf6e416b23941131b",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app-routing.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\r\nimport { RouterModule, Routes } from '@angular/router';\r\n\r\nconst routes: Routes = [];\r\n\r\n@NgModule({\r\n  imports: [RouterModule.forRoot(routes)],\r\n  exports: [RouterModule]\r\n})\r\nexport class AppRoutingModule { }\r\n",
             "children": [
                 {
                     "type": "providers",
@@ -628,7 +628,7 @@
                 "name": "actionsData",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/task/task.stories.ts",
+                "file": "src/app/mermaid/mermaid.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
@@ -638,7 +638,7 @@
                 "name": "actionsData",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/mermaid/mermaid.stories.ts",
+                "file": "src/app/task/task.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "object",
@@ -948,6 +948,38 @@
                     "defaultValue": "{\r\n  render: () => ({\r\n    props: {\r\n      task: {\r\n        id: '1',\r\n        title: 'Test Task',\r\n        state: 'TASK_INBOX',\r\n      },\r\n      onPinTask: actionsData.onPinTask,\r\n      onArchiveTask: actionsData.onArchiveTask,\r\n    },\r\n  }),\r\n}"
                 }
             ],
+            "src/app/mermaid/mermaid.stories.ts": [
+                {
+                    "name": "actionsData",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/mermaid/mermaid.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "object",
+                    "defaultValue": "{\r\n  onPinTask: action('onPinTask'),\r\n  onArchiveTask: action('onArchiveTask'),\r\n}"
+                },
+                {
+                    "name": "metaDetail",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/mermaid/mermaid.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<MermaidComponent>",
+                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Mermaid',\r\n  component: MermaidComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                },
+                {
+                    "name": "PrivateMermaid",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/app/mermaid/mermaid.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StoryDetail",
+                    "defaultValue": "{\r\n  render: () => ({\r\n    props: {\r\n      task: {\r\n        id: '1',\r\n        title: 'Test Task',\r\n        state: 'TASK_INBOX',\r\n      },\r\n      onPinTask: actionsData.onPinTask,\r\n      onArchiveTask: actionsData.onArchiveTask,\r\n    },\r\n  }),\r\n}"
+                }
+            ],
             "src/app/task/task.stories.ts": [
                 {
                     "name": "actionsData",
@@ -998,38 +1030,6 @@
                     "deprecationMessage": "",
                     "type": "Story",
                     "defaultValue": "{\r\n  render: () => ({\r\n    props: {\r\n      task: {\r\n        id: '1',\r\n        title: 'Test Task',\r\n        state: 'TASK_PINNED',\r\n      },\r\n      onPinTask: actionsData.onPinTask,\r\n      onArchiveTask: actionsData.onArchiveTask,\r\n    },\r\n  }),\r\n}"
-                }
-            ],
-            "src/app/mermaid/mermaid.stories.ts": [
-                {
-                    "name": "actionsData",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/mermaid/mermaid.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "object",
-                    "defaultValue": "{\r\n  onPinTask: action('onPinTask'),\r\n  onArchiveTask: action('onArchiveTask'),\r\n}"
-                },
-                {
-                    "name": "metaDetail",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/mermaid/mermaid.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Meta<MermaidComponent>",
-                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Mermaid',\r\n  component: MermaidComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
-                },
-                {
-                    "name": "PrivateMermaid",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/app/mermaid/mermaid.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "StoryDetail",
-                    "defaultValue": "{\r\n  render: () => ({\r\n    props: {\r\n      task: {\r\n        id: '1',\r\n        title: 'Test Task',\r\n        state: 'TASK_INBOX',\r\n      },\r\n      onPinTask: actionsData.onPinTask,\r\n      onArchiveTask: actionsData.onArchiveTask,\r\n    },\r\n  }),\r\n}"
                 }
             ],
             "src/stories/Button.stories.ts": [
