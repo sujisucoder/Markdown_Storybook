@@ -1,0 +1,149 @@
+Date : 2023-05-11 13:36:47
+Directory : d:\Angular_App\Markdown_Storybook
+Total : 89 files,  44533 codes, 183 comments, 626 blanks, all 45342 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          8 |     42,116 |          2 |         12 |     42,130 |
+| JavaScript         |         27 |        785 |        139 |        340 |      1,264 |
+| TypeScript         |         24 |        626 |         40 |        117 |        783 |
+| Log                |          1 |        481 |          0 |         23 |        504 |
+| MDX                |          2 |        202 |          0 |         30 |        232 |
+| CSS                |          9 |        146 |          1 |         25 |        172 |
+| HTML               |          6 |        105 |          0 |         63 |        168 |
+| JSON with Comments |          2 |         43 |          1 |          2 |         46 |
+| XML                |          9 |         15 |          0 |          0 |         15 |
+| Markdown           |          1 |         14 |          0 |         14 |         28 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                         |         89 |     44,533 |        183 |        626 |     45,342 |
+| . (Files)                                                                                                 |          9 |     42,637 |          3 |         48 |     42,688 |
+| .storybook                                                                                                |          4 |         48 |          0 |          6 |         54 |
+| src                                                                                                       |         45 |        956 |         41 |        167 |      1,164 |
+| src (Files)                                                                                               |          3 |         17 |          1 |          6 |         24 |
+| src\app                                                                                                   |         22 |        329 |         16 |         83 |        428 |
+| src\app (Files)                                                                                           |          6 |         67 |          0 |         14 |         81 |
+| src\app\markdown                                                                                          |          5 |         81 |          5 |         26 |        112 |
+| src\app\mermaid                                                                                           |          5 |         76 |          5 |         17 |         98 |
+| src\app\task                                                                                              |          6 |        105 |          6 |         26 |        137 |
+| src\stories                                                                                               |         20 |        610 |         24 |         78 |        712 |
+| src\stories (Files)                                                                                       |         12 |        602 |         24 |         78 |        704 |
+| src\stories\assets                                                                                        |          8 |          8 |          0 |          0 |          8 |
+| storybook-static                                                                                          |         31 |        892 |        139 |        405 |      1,436 |
+| storybook-static (Files)                                                                                  |          3 |         79 |          0 |         61 |        140 |
+| storybook-static\sb-addons                                                                                |          9 |        110 |         69 |         15 |        194 |
+| storybook-static\sb-addons\essentials-actions-2                                                           |          1 |          3 |          1 |          1 |          5 |
+| storybook-static\sb-addons\essentials-backgrounds-3                                                       |          1 |         12 |          1 |          1 |         14 |
+| storybook-static\sb-addons\essentials-controls-1                                                          |          1 |         54 |         59 |          5 |        118 |
+| storybook-static\sb-addons\essentials-measure-6                                                           |          1 |          3 |          1 |          1 |          5 |
+| storybook-static\sb-addons\essentials-outline-7                                                           |          1 |          3 |          1 |          1 |          5 |
+| storybook-static\sb-addons\essentials-toolbars-5                                                          |          1 |          3 |          1 |          1 |          5 |
+| storybook-static\sb-addons\essentials-viewport-4                                                          |          1 |          3 |          1 |          1 |          5 |
+| storybook-static\sb-addons\interactions-8                                                                 |          1 |         26 |          3 |          3 |         32 |
+| storybook-static\sb-addons\links-0                                                                        |          1 |          3 |          1 |          1 |          5 |
+| storybook-static\sb-common-assets                                                                         |          1 |         28 |          0 |          4 |         32 |
+| storybook-static\sb-manager                                                                               |         16 |        589 |         68 |        305 |        962 |
+| storybook-static\sb-preview                                                                               |          2 |         86 |          2 |         20 |        108 |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                  | language           | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| d:\Angular_App\Markdown_Storybook\.storybook\main.ts                                                      | TypeScript         |         17 |          0 |          1 |         18 |
+| d:\Angular_App\Markdown_Storybook\.storybook\preview.ts                                                   | TypeScript         |         16 |          0 |          3 |         19 |
+| d:\Angular_App\Markdown_Storybook\.storybook\tsconfig.json                                                | JSON with Comments |         11 |          0 |          1 |         12 |
+| d:\Angular_App\Markdown_Storybook\.storybook\typings.d.ts                                                 | TypeScript         |          4 |          0 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\README.md                                                               | Markdown           |         14 |          0 |         14 |         28 |
+| d:\Angular_App\Markdown_Storybook\angular.json                                                            | JSON               |        138 |          0 |          6 |        144 |
+| d:\Angular_App\Markdown_Storybook\build-storybook.log                                                     | Log                |        481 |          0 |         23 |        504 |
+| d:\Angular_App\Markdown_Storybook\documentation.json                                                      | JSON               |      1,569 |          0 |          0 |      1,569 |
+| d:\Angular_App\Markdown_Storybook\package-lock.json                                                       | JSON               |     40,317 |          0 |          1 |     40,318 |
+| d:\Angular_App\Markdown_Storybook\package.json                                                            | JSON               |         60 |          0 |          1 |         61 |
+| d:\Angular_App\Markdown_Storybook\src\app\app-routing.module.ts                                           | TypeScript         |          8 |          0 |          3 |         11 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.css                                               | CSS                |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.html                                              | HTML               |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.spec.ts                                           | TypeScript         |         25 |          0 |          5 |         30 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.ts                                                | TypeScript         |          9 |          0 |          2 |         11 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.module.ts                                                   | TypeScript         |         24 |          0 |          3 |         27 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.css                                 | CSS                |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.html                                | HTML               |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.spec.ts                             | TypeScript         |         17 |          0 |          4 |         21 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.ts                                  | TypeScript         |         20 |          0 |         12 |         32 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.stories.ts                                    | TypeScript         |         43 |          5 |          8 |         56 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.css                                   | CSS                |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.html                                  | HTML               |          8 |          0 |          0 |          8 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.spec.ts                               | TypeScript         |         17 |          0 |          5 |         22 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.ts                                    | TypeScript         |          8 |          0 |          3 |         11 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.stories.ts                                      | TypeScript         |         43 |          5 |          8 |         56 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.css                                         | CSS                |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.html                                        | HTML               |         11 |          0 |          1 |         12 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.spec.ts                                     | TypeScript         |         17 |          0 |          5 |         22 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.ts                                          | TypeScript         |         14 |          2 |          3 |         19 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.mdx                                                   | MDX                |         11 |          0 |          7 |         18 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.stories.ts                                            | TypeScript         |         52 |          4 |          9 |         65 |
+| d:\Angular_App\Markdown_Storybook\src\index.html                                                          | HTML               |         13 |          0 |          1 |         14 |
+| d:\Angular_App\Markdown_Storybook\src\main.ts                                                             | TypeScript         |          4 |          0 |          4 |          8 |
+| d:\Angular_App\Markdown_Storybook\src\stories\.eslintrc.json                                              | JSON               |          5 |          0 |          1 |          6 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Button.stories.ts                                           | TypeScript         |         43 |          2 |          7 |         52 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Header.stories.ts                                           | TypeScript         |         30 |          2 |          6 |         38 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Introduction.mdx                                            | MDX                |        191 |          0 |         23 |        214 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Page.stories.ts                                             | TypeScript         |         39 |          2 |          6 |         47 |
+| d:\Angular_App\Markdown_Storybook\src\stories\User.ts                                                     | TypeScript         |          1 |          1 |          1 |          3 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\code-brackets.svg                                    | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\colors.svg                                           | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\comments.svg                                         | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\direction.svg                                        | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\flow.svg                                             | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\plugin.svg                                           | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\repo.svg                                             | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\stackalt.svg                                         | XML                |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\button.component.ts                                         | TypeScript         |         31 |         17 |          8 |         56 |
+| d:\Angular_App\Markdown_Storybook\src\stories\button.css                                                  | CSS                |         30 |          0 |          1 |         31 |
+| d:\Angular_App\Markdown_Storybook\src\stories\header.component.ts                                         | TypeScript         |         71 |          0 |          5 |         76 |
+| d:\Angular_App\Markdown_Storybook\src\stories\header.css                                                  | CSS                |         28 |          0 |          5 |         33 |
+| d:\Angular_App\Markdown_Storybook\src\stories\page.component.ts                                           | TypeScript         |         73 |          0 |          5 |         78 |
+| d:\Angular_App\Markdown_Storybook\src\stories\page.css                                                    | CSS                |         60 |          0 |         10 |         70 |
+| d:\Angular_App\Markdown_Storybook\src\styles.css                                                          | CSS                |          0 |          1 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\favicon.svg                                            | XML                |          7 |          0 |          0 |          7 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\index.html                                             | HTML               |         71 |          0 |         60 |        131 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\project.json                                           | JSON               |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-actions-2\manager-bundle.js       | JavaScript         |          3 |          1 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-backgrounds-3\manager-bundle.js   | JavaScript         |         12 |          1 |          1 |         14 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-controls-1\manager-bundle.js      | JavaScript         |         54 |         59 |          5 |        118 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-measure-6\manager-bundle.js       | JavaScript         |          3 |          1 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-outline-7\manager-bundle.js       | JavaScript         |          3 |          1 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-toolbars-5\manager-bundle.js      | JavaScript         |          3 |          1 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\essentials-viewport-4\manager-bundle.js      | JavaScript         |          3 |          1 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\interactions-8\manager-bundle.js             | JavaScript         |         26 |          3 |          3 |         32 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-addons\links-0\manager-bundle.js                    | JavaScript         |          3 |          1 |          1 |          5 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-common-assets\fonts.css                             | CSS                |         28 |          0 |          4 |         32 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\GlobalScrollAreaStyles-XIHNDKUY-F4JIPIHL.js | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\OverlayScrollbars-VAV6LJAB-K3TMPSMY.js      | JavaScript         |          6 |          0 |          1 |          7 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\WithTooltip-FBT32F6Q-7QJ37TCY.js            | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-3FAXWWKG.js                           | JavaScript         |         11 |          0 |          5 |         16 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-54KM6K5Z.js                           | JavaScript         |          7 |          0 |          1 |          8 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-AS2AMEUR.js                           | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-F3MVQVF6.js                           | JavaScript         |         78 |         56 |         74 |        208 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-FENICTK6.js                           | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-GQDEE62S.js                           | JavaScript         |        242 |          2 |        163 |        407 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-PUVLCKJJ.js                           | JavaScript         |         90 |         10 |         41 |        141 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\chunk-QPL63VNK.js                           | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\formatter-S4K5WUZV-4LPR5OBX.js              | JavaScript         |        146 |          0 |         11 |        157 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\globals.js                                  | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\index.js                                    | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\runtime.js                                  | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-manager\syntaxhighlighter-QTQ2UBB4-F5YUFYAB.js      | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-preview\globals.js                                  | JavaScript         |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\storybook-static\sb-preview\runtime.js                                  | JavaScript         |         85 |          2 |         19 |        106 |
+| d:\Angular_App\Markdown_Storybook\tsconfig.app.json                                                       | JSON               |         13 |          1 |          1 |         15 |
+| d:\Angular_App\Markdown_Storybook\tsconfig.json                                                           | JSON with Comments |         32 |          1 |          1 |         34 |
+| d:\Angular_App\Markdown_Storybook\tsconfig.spec.json                                                      | JSON               |         13 |          1 |          1 |         15 |
+| Total                                                                                                     |                    |     44,533 |        183 |        626 |     45,342 |
++-----------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

@@ -1,0 +1,83 @@
+Date : 2023-05-11 13:38:41
+Directory : d:\Angular_App\Markdown_Storybook\src
+Total : 45 files,  956 codes, 41 comments, 167 blanks, all 1164 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         21 |        589 |         40 |        112 |        741 |
+| MDX        |          2 |        202 |          0 |         30 |        232 |
+| CSS        |          8 |        118 |          1 |         21 |        140 |
+| HTML       |          5 |         34 |          0 |          3 |         37 |
+| XML        |          8 |          8 |          0 |          0 |          8 |
+| JSON       |          1 |          5 |          0 |          1 |          6 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                          | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                             |         45 |        956 |         41 |        167 |      1,164 |
+| . (Files)                                                                     |          3 |         17 |          1 |          6 |         24 |
+| app                                                                           |         22 |        329 |         16 |         83 |        428 |
+| app (Files)                                                                   |          6 |         67 |          0 |         14 |         81 |
+| app\markdown                                                                  |          5 |         81 |          5 |         26 |        112 |
+| app\mermaid                                                                   |          5 |         76 |          5 |         17 |         98 |
+| app\task                                                                      |          6 |        105 |          6 |         26 |        137 |
+| stories                                                                       |         20 |        610 |         24 |         78 |        712 |
+| stories (Files)                                                               |         12 |        602 |         24 |         78 |        704 |
+| stories\assets                                                                |          8 |          8 |          0 |          0 |          8 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                      | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Angular_App\Markdown_Storybook\src\app\app-routing.module.ts               | TypeScript |          8 |          0 |          3 |         11 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.css                   | CSS        |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.html                  | HTML       |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.spec.ts               | TypeScript |         25 |          0 |          5 |         30 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.component.ts                    | TypeScript |          9 |          0 |          2 |         11 |
+| d:\Angular_App\Markdown_Storybook\src\app\app.module.ts                       | TypeScript |         24 |          0 |          3 |         27 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.css     | CSS        |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.html    | HTML       |          1 |          0 |          1 |          2 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.spec.ts | TypeScript |         17 |          0 |          4 |         21 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.component.ts      | TypeScript |         20 |          0 |         12 |         32 |
+| d:\Angular_App\Markdown_Storybook\src\app\markdown\markdown.stories.ts        | TypeScript |         43 |          5 |          8 |         56 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.css       | CSS        |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.html      | HTML       |          8 |          0 |          0 |          8 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.spec.ts   | TypeScript |         17 |          0 |          5 |         22 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.component.ts        | TypeScript |          8 |          0 |          3 |         11 |
+| d:\Angular_App\Markdown_Storybook\src\app\mermaid\mermaid.stories.ts          | TypeScript |         43 |          5 |          8 |         56 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.css             | CSS        |          0 |          0 |          1 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.html            | HTML       |         11 |          0 |          1 |         12 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.spec.ts         | TypeScript |         17 |          0 |          5 |         22 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.component.ts              | TypeScript |         14 |          2 |          3 |         19 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.mdx                       | MDX        |         11 |          0 |          7 |         18 |
+| d:\Angular_App\Markdown_Storybook\src\app\task\task.stories.ts                | TypeScript |         52 |          4 |          9 |         65 |
+| d:\Angular_App\Markdown_Storybook\src\index.html                              | HTML       |         13 |          0 |          1 |         14 |
+| d:\Angular_App\Markdown_Storybook\src\main.ts                                 | TypeScript |          4 |          0 |          4 |          8 |
+| d:\Angular_App\Markdown_Storybook\src\stories\.eslintrc.json                  | JSON       |          5 |          0 |          1 |          6 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Button.stories.ts               | TypeScript |         43 |          2 |          7 |         52 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Header.stories.ts               | TypeScript |         30 |          2 |          6 |         38 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Introduction.mdx                | MDX        |        191 |          0 |         23 |        214 |
+| d:\Angular_App\Markdown_Storybook\src\stories\Page.stories.ts                 | TypeScript |         39 |          2 |          6 |         47 |
+| d:\Angular_App\Markdown_Storybook\src\stories\User.ts                         | TypeScript |          1 |          1 |          1 |          3 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\code-brackets.svg        | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\colors.svg               | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\comments.svg             | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\direction.svg            | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\flow.svg                 | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\plugin.svg               | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\repo.svg                 | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\assets\stackalt.svg             | XML        |          1 |          0 |          0 |          1 |
+| d:\Angular_App\Markdown_Storybook\src\stories\button.component.ts             | TypeScript |         31 |         17 |          8 |         56 |
+| d:\Angular_App\Markdown_Storybook\src\stories\button.css                      | CSS        |         30 |          0 |          1 |         31 |
+| d:\Angular_App\Markdown_Storybook\src\stories\header.component.ts             | TypeScript |         71 |          0 |          5 |         76 |
+| d:\Angular_App\Markdown_Storybook\src\stories\header.css                      | CSS        |         28 |          0 |          5 |         33 |
+| d:\Angular_App\Markdown_Storybook\src\stories\page.component.ts               | TypeScript |         73 |          0 |          5 |         78 |
+| d:\Angular_App\Markdown_Storybook\src\stories\page.css                        | CSS        |         60 |          0 |         10 |         70 |
+| d:\Angular_App\Markdown_Storybook\src\styles.css                              | CSS        |          0 |          1 |          1 |          2 |
+| Total                                                                         |            |        956 |         41 |        167 |      1,164 |
++-------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

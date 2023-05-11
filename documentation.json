@@ -69,7 +69,7 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "<app-mermaid></app-mermaid>"
+            "templateData": "<app-simpletask></app-simpletask>"
         },
         {
             "name": "ButtonComponent",
@@ -270,7 +270,7 @@
         },
         {
             "name": "MarkdownComponent",
-            "id": "component-MarkdownComponent-3d8f5cb01d677f346cd10836c349ba9161575022fee9c185b14f9869866fb6ff5999ee534069d03b75d115663b991a59730c0dbfdb020803f8378311f629f642",
+            "id": "component-MarkdownComponent-c69d0d864cac27ddc1d942f25a732643abca6a8aa2ad4879a5af5ff4be2441d61e42f9aa759f4b6d420a63550dc9a1a769d493e4aa66464fdefb5b9fc4679508",
             "file": "src/app/markdown/markdown.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -291,7 +291,7 @@
             "propertiesClass": [
                 {
                     "name": "markdown",
-                    "defaultValue": "`## Markdown __rulez__!\r\n  ---\r\n  \r\n  ### Syntax highlight\r\n  \\`\\`\\`typescript\r\n  const language = 'typescript';\r\n  \\`\\`\\`\r\n  \r\n  ### Lists\r\n  1. Ordered list\r\n  2. Another bullet point\r\n     - Unordered list\r\n     - Another unordered bullet\r\n  \r\n  ### Blockquote\r\n  > Blockquote to the max`",
+                    "defaultValue": "`## Add task.ts\r\n  ---\r\n  \r\n  ### src/app/models/task.model.ts\r\n  \\`\\`\\`typescript\r\n\r\n  export interface Task {\r\n    id: string;\r\n    title: string;\r\n    state: string;\r\n  }\r\n  \\`\\`\\`\r\n\r\n  \r\n  \r\n  \r\n\r\n  > `",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "",
@@ -318,7 +318,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-markdown',\r\n  templateUrl: './markdown.component.html',\r\n  styleUrls: ['./markdown.component.css']\r\n})\r\nexport class MarkdownComponent {\r\n  title = 'Markdownstorybook';\r\n\r\n  markdown = `## Markdown __rulez__!\r\n  ---\r\n  \r\n  ### Syntax highlight\r\n  \\`\\`\\`typescript\r\n  const language = 'typescript';\r\n  \\`\\`\\`\r\n  \r\n  ### Lists\r\n  1. Ordered list\r\n  2. Another bullet point\r\n     - Unordered list\r\n     - Another unordered bullet\r\n  \r\n  ### Blockquote\r\n  > Blockquote to the max`;\r\n  }\r\n\r\n",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-markdown',\r\n  templateUrl: './markdown.component.html',\r\n  styleUrls: ['./markdown.component.css']\r\n})\r\nexport class MarkdownComponent {\r\n  title = 'Markdownstorybook';\r\n\r\n  markdown = `## Add task.ts\r\n  ---\r\n  \r\n  ### src/app/models/task.model.ts\r\n  \\`\\`\\`typescript\r\n\r\n  export interface Task {\r\n    id: string;\r\n    title: string;\r\n    state: string;\r\n  }\r\n  \\`\\`\\`\r\n\r\n  \r\n  \r\n  \r\n\r\n  > `\r\n  \r\n  }\r\n\r\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
@@ -367,7 +367,7 @@
                 }
             ],
             "stylesData": "",
-            "templateData": "<markdown mermaid  ngPreserveWhitespaces>\r\n  <pre class=\"mermaid\">\r\n    flowchart TD\r\n    id1([Markdown in html])\r\n    id2([Markdown in template])\r\n    id3([Markdown in data])\r\n    id4([Markdown loaded from src])\r\n  </pre>\r\n  </markdown>"
+            "templateData": "<markdown mermaid  ngPreserveWhitespaces>\r\n  <pre class=\"mermaid\">\r\n    flowchart TD\r\n    id1([make a task.component.ts file])-->id2([make a task.stories.ts file])\r\n    id2-->id3([create new stories inside task with csf3])\r\n    id3-->id4([In .storybook/main.js create a path to recognise new stories])\r\n  </pre>\r\n  </markdown>"
         },
         {
             "name": "PageComponent",
