@@ -39,9 +39,31 @@ export class TaskListComponent {
   * @ignore
   * Component property to define ordering of tasks
   */
- tasksInOrder: Task[] = [];
+ tasksInOrder: Task[] = [
+  {
+    id: 'd',
+    title: 'Task1',
+    state: 'h'
+  },
+  {
+    id: 'd',
+    title: 'Task2',
+    state: 'h'
+  },
+  {
+    id: 'd',
+    title: 'Task3',
+    state: 'h'
+  },
+  {
+    id: 'd',
+    title: 'Task4',
+    state: 'h'
+  }
+]
+ 
 
-  @Input() loading = false;
+ @Input() loading = false;
 
   // tslint:disable-next-line: no-output-on-prefix
   @Output() onPinTask: EventEmitter<any> = new EventEmitter();
