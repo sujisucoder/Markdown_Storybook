@@ -41,7 +41,7 @@ const actionsData = {
 };
 
 
-export const Data: StoryDetail = {
+export const PrivateMermaid: StoryDetail = {
   render: () => ({
     props: {
       task: {

@@ -1,0 +1,17 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+
+import * as markdown from "../markdown/markdown.stories";
+import * as mermaid from "../mermaid/mermaid.stories";
+import * as taskStyles from "./task-styles.stories";
+
+<Meta of={taskStyles} />
+
+# Simple Taskcomponent
+
+Let's begin by creating a basic task component and then writing a story for it.
+
+## Flowchart
+
+<Story of={mermaid.PrivateMermaid} />
+####
+<Story of={markdown.PrivateMarkdown} />

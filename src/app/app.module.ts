@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { MarkdownComponent } from './markdown/markdown.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { MermaidComponent } from './mermaid/mermaid.component';
+import { TaskStylesComponent } from './task-styles/task-styles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MarkdownComponent,
-    MermaidComponent
+    MermaidComponent,
+    TaskStylesComponent
   ],
   imports: [
     BrowserModule,

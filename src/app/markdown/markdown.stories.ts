@@ -41,7 +41,7 @@ const actionsData = {
 };
 
 
-export const Data: StoryDetail = {
+export const PrivateMarkdown: StoryDetail = {
   render: () => ({
     props: {
       task: {
