@@ -10,7 +10,7 @@ const meta: Meta<TaskStylesComponent> = {
    * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'TaskStylesComponent',
+  title: 'TaskBox/TaskStylesComponent',
   component: TaskStylesComponent,
 
 };
@@ -30,7 +30,7 @@ export const DefaultTask: Story = {
     task:{
       id: '1',
       title: 'Test Task',
-      state: 'TASK_INBOX',
+      state: 'TASK_INBOX', 
     }
   }
   // render: () => ({

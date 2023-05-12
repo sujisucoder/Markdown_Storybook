@@ -7,13 +7,16 @@ import { MarkdownComponent } from './markdown/markdown.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { MermaidComponent } from './mermaid/mermaid.component';
 import { TaskStylesComponent } from './task-styles/task-styles.component';
+import { TaskListComponent } from './task-list/task-list.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MarkdownComponent,
     MermaidComponent,
-    TaskStylesComponent
+    TaskStylesComponent,
+    TaskListComponent
   ],
   imports: [
     BrowserModule,

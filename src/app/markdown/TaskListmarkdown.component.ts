@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-markdown',
+  selector: 'app-markdown-taskList',
   templateUrl: './markdown.component.html',
 
 })
-export class MarkdownComponent {
+export class MarkdownTaskListComponent {
   title = 'Markdownstorybook';
 
-  markdown = `## Markdown __rulez__!
+  markdown = `## TAsk list mdx!
   ---
   
   ### Syntax highlight
