@@ -1,0 +1,24 @@
+# Summary
+
+Date : 2023-05-12 16:46:42
+
+Directory d:\\Angular_App\\Markdown_Storybook\\src\\app\\components\\task-styles
+
+Total : 6 files,  135 codes, 17 comments, 42 blanks, all 194 lines
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| TypeScript | 3 | 86 | 17 | 30 | 133 |
+| HTML | 1 | 38 | 0 | 4 | 42 |
+| MDX | 1 | 11 | 0 | 7 | 18 |
+| CSS | 1 | 0 | 0 | 1 | 1 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 6 | 135 | 17 | 42 | 194 |
+
+Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

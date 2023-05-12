@@ -6,8 +6,14 @@ import { AppComponent } from './app.component';
 import { MarkdownComponent } from './markdown/markdown.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { MermaidComponent } from './mermaid/mermaid.component';
-import { TaskStylesComponent } from './task-styles/task-styles.component';
-import { TaskListComponent } from './task-list/task-list.component';
+
+
+ import { TaskModule } from './components/task.module';
+ import { NgxsModule } from '@ngxs/store';
+ import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
+ import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
+
+ import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -15,13 +21,21 @@ import { TaskListComponent } from './task-list/task-list.component';
     AppComponent,
     MarkdownComponent,
     MermaidComponent,
-    TaskStylesComponent,
-    TaskListComponent
+    
+    
   ],
   imports: [
+    TaskModule,
     BrowserModule,
     AppRoutingModule,
     MarkdownModule.forRoot(),
+        NgxsModule.forRoot([], {
+           developmentMode: !environment.production,
+         }),
+         NgxsReduxDevtoolsPluginModule.forRoot(),
+         NgxsLoggerPluginModule.forRoot({
+           disabled: environment.production,
+         }),
   ],
   providers: [],
   bootstrap: [AppComponent]

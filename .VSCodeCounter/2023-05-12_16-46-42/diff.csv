@@ -1,0 +1,13 @@
+"filename", "language", "MDX", "TypeScript", "HTML", "CSS", "comment", "blank", "total"
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-list\pure-task-list.component.ts", "TypeScript", 0, -51, 0, 0, -6, -5, -62
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.component.html", "HTML", 0, 0, -25, 0, -11, -1, -37
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.component.ts", "TypeScript", 0, -26, 0, 0, -6, -5, -37
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.mdx", "MDX", -8, 0, 0, 0, 0, -7, -15
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.stories.ts", "TypeScript", 0, -94, 0, 0, -10, -22, -126
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.css", "CSS", 0, 0, 0, 0, 0, 1, 1
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.html", "HTML", 0, 0, 38, 0, 0, 4, 42
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.spec.ts", "TypeScript", 0, 17, 0, 0, 0, 5, 22
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.ts", "TypeScript", 0, 21, 0, 0, 2, 13, 36
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.mdx", "MDX", 11, 0, 0, 0, 0, 7, 18
+"d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.stories.ts", "TypeScript", 0, 48, 0, 0, 15, 12, 75
+"Total", "-", 3, -85, 13, 0, -16, 2, -83
