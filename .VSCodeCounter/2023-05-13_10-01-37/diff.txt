@@ -1,0 +1,41 @@
+Date : 2023-05-13 10:01:37
+Directory : d:\Angular_App\Markdown_Storybook\src\app\components\task-list
+Total : 11 files,  37 codes, 11 comments, 5 blanks, all 53 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |          6 |         51 |          0 |          9 |         60 |
+| CSS        |          1 |          0 |          0 |         -1 |         -1 |
+| MDX        |          2 |         -1 |          0 |          0 |         -1 |
+| HTML       |          2 |        -13 |         11 |         -3 |         -5 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |         11 |         37 |         11 |          5 |         53 |
+| . (Files)                                                                                      |          5 |        172 |         28 |         47 |        247 |
+| ..                                                                                             |          6 |       -135 |        -17 |        -42 |       -194 |
+| ..\task-styles                                                                                 |          6 |       -135 |        -17 |        -42 |       -194 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                       | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-list\pure-task-list.component.ts     | TypeScript |         51 |          6 |          5 |         62 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-list\pure-task-list.stories.ts       | TypeScript |         60 |          5 |         29 |         94 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.component.html        | HTML       |         25 |         11 |          1 |         37 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.component.ts          | TypeScript |         26 |          6 |          5 |         37 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-list\task-list.mdx                   | MDX        |         10 |          0 |          7 |         17 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.css     | CSS        |          0 |          0 |         -1 |         -1 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.html    | HTML       |        -38 |          0 |         -4 |        -42 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.spec.ts | TypeScript |        -17 |          0 |         -5 |        -22 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.component.ts      | TypeScript |        -21 |         -2 |        -13 |        -36 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.mdx               | MDX        |        -11 |          0 |         -7 |        -18 |
+| d:\Angular_App\Markdown_Storybook\src\app\components\task-styles\task-styles.stories.ts        | TypeScript |        -48 |        -15 |        -12 |        -75 |
+| Total                                                                                          |            |         37 |         11 |          5 |         53 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

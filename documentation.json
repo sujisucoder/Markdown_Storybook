@@ -1237,21 +1237,21 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/task-styles/task-styles.stories.ts",
+                "file": "src/app/components/task-list/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<TaskStylesComponent>",
-                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'TaskBox/TaskStylesComponent',\r\n  component: TaskStylesComponent,\r\n\r\n}"
+                "type": "Meta<PureTaskListComponent>",
+                "defaultValue": "{\r\n\r\n  title: 'TaskBox/PureTaskList',\r\n  component: PureTaskListComponent,\r\n\r\n  decorators: [\r\n    moduleMetadata({\r\n      //👇 Imports both components to allow component composition with storybook\r\n      declarations: [PureTaskListComponent, TaskStylesComponent],\r\n      imports: [CommonModule],\r\n    }),\r\n    //👇 Wraps our stories with a decorator\r\n    componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`),\r\n  ],\r\n\r\n}"
             },
             {
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/app/components/task-list/pure-task-list.stories.ts",
+                "file": "src/app/components/task-styles/task-styles.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Meta<PureTaskListComponent>",
-                "defaultValue": "{\r\n\r\n  title: 'PureTaskList',\r\n  component: PureTaskListComponent,\r\n\r\n  decorators: [\r\n    moduleMetadata({\r\n      //👇 Imports both components to allow component composition with storybook\r\n      declarations: [PureTaskListComponent, TaskStylesComponent],\r\n      imports: [CommonModule],\r\n    }),\r\n    //👇 Wraps our stories with a decorator\r\n    componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`),\r\n  ],\r\n\r\n}"
+                "type": "Meta<TaskStylesComponent>",
+                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'TaskBox/TaskStylesComponent',\r\n  component: TaskStylesComponent,\r\n\r\n}"
             },
             {
                 "name": "metaDetail",
@@ -1389,8 +1389,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<TaskStylesComponent>",
-                "file": "src/app/components/task-styles/task-styles.stories.ts",
+                "rawtype": "StoryObj<PureTaskListComponent>",
+                "file": "src/app/components/task-list/pure-task-list.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1400,8 +1400,8 @@
                 "name": "Story",
                 "ctype": "miscellaneous",
                 "subtype": "typealias",
-                "rawtype": "StoryObj<PureTaskListComponent>",
-                "file": "src/app/components/task-list/pure-task-list.stories.ts",
+                "rawtype": "StoryObj<TaskStylesComponent>",
+                "file": "src/app/components/task-styles/task-styles.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "description": "",
@@ -1652,7 +1652,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<PureTaskListComponent>",
-                    "defaultValue": "{\r\n\r\n  title: 'PureTaskList',\r\n  component: PureTaskListComponent,\r\n\r\n  decorators: [\r\n    moduleMetadata({\r\n      //👇 Imports both components to allow component composition with storybook\r\n      declarations: [PureTaskListComponent, TaskStylesComponent],\r\n      imports: [CommonModule],\r\n    }),\r\n    //👇 Wraps our stories with a decorator\r\n    componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`),\r\n  ],\r\n\r\n}"
+                    "defaultValue": "{\r\n\r\n  title: 'TaskBox/PureTaskList',\r\n  component: PureTaskListComponent,\r\n\r\n  decorators: [\r\n    moduleMetadata({\r\n      //👇 Imports both components to allow component composition with storybook\r\n      declarations: [PureTaskListComponent, TaskStylesComponent],\r\n      imports: [CommonModule],\r\n    }),\r\n    //👇 Wraps our stories with a decorator\r\n    componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`),\r\n  ],\r\n\r\n}"
                 },
                 {
                     "name": "Template",
@@ -1746,19 +1746,6 @@
         },
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "src/app/components/task-styles/task-styles.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<TaskStylesComponent>",
-                    "file": "src/app/components/task-styles/task-styles.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 177
-                }
-            ],
             "src/app/components/task-list/pure-task-list.stories.ts": [
                 {
                     "name": "Story",
@@ -1766,6 +1753,19 @@
                     "subtype": "typealias",
                     "rawtype": "StoryObj<PureTaskListComponent>",
                     "file": "src/app/components/task-list/pure-task-list.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 177
+                }
+            ],
+            "src/app/components/task-styles/task-styles.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<TaskStylesComponent>",
+                    "file": "src/app/components/task-styles/task-styles.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "description": "",
