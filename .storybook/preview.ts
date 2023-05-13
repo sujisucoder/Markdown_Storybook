@@ -6,6 +6,12 @@ setCompodocJson(docJson);
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
+    
+    options: {
+      storySort: {
+        order: ['TaskBox',['TaskComponent','TaskStylesComponent','TaskListComponent','TaskListStyleComponent']],
+      },
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,

@@ -8,21 +8,21 @@ import { Component } from '@angular/core';
 export class MarkdownComponent {
   title = 'Markdownstorybook';
 
-  markdown = `## Markdown __rulez__!
+  markdown = `
   ---
   
-  ### Syntax highlight
+  ### Create a new directory to add the file task.model.ts
+  src/app/models/task.model.ts
+
   \`\`\`typescript
-  const language = 'typescript';
+  
+export interface Task {
+  id: string;
+  title: string;
+  state: string;
+}
   \`\`\`
   
-  ### Lists
-  1. Ordered list
-  2. Another bullet point
-     - Unordered list
-     - Another unordered bullet
-  
-  ### Blockquote
-  > Blockquote to the max`;
+ `;
   }
 

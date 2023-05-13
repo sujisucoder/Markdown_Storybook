@@ -6,8 +6,13 @@ import { AppComponent } from './app.component';
 import { MarkdownComponent } from './markdown/markdown.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { MermaidComponent } from './mermaid/mermaid.component';
+
+import { TaskComponent } from './task/task.component';
 import { TaskStylesComponent } from './task-styles/task-styles.component';
 import { TaskListComponent } from './task-list/task-list.component';
+import { TaskListStyleComponent } from './task-list-styles/task-list-styles.component';
+import { MermaidTasklistComponent } from '././mermaid/TaskListmermaid.component'
+
 
 
 @NgModule({
@@ -15,8 +20,11 @@ import { TaskListComponent } from './task-list/task-list.component';
     AppComponent,
     MarkdownComponent,
     MermaidComponent,
+    TaskComponent,
     TaskStylesComponent,
-    TaskListComponent
+    TaskListComponent,
+    TaskListStyleComponent,
+    MermaidTasklistComponent
   ],
   imports: [
     BrowserModule,

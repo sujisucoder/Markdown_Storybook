@@ -8,21 +8,20 @@ import { Component } from '@angular/core';
 export class MarkdownTaskListComponent {
   title = 'Markdownstorybook';
 
-  markdown = `## TAsk list mdx!
+  markdown = `## 
+
+
   ---
   
-  ### Syntax highlight
-  \`\`\`typescript
-  const language = 'typescript';
-  \`\`\`
-  
-  ### Lists
-  1. Ordered list
-  2. Another bullet point
-     - Unordered list
-     - Another unordered bullet
-  
-  ### Blockquote
-  > Blockquote to the max`;
-  }
 
+  
+###  Task List Stories
+
+     - Default
+     - Pinned  
+     - Empty
+     - Loading 
+  
+ 
+  > `;
+  }

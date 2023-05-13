@@ -1,14 +1,15 @@
 import { Canvas, Meta, Story } from "@storybook/blocks";
 
 import * as MarkdownTaskList from "../markdown/TaskListmarkdown.stories";
+import * as MermaidTaskList from "../mermaid/TaskListmermaid.stories";
 import * as taskList from "./task-list.stories";
 
 <Meta of={taskList} />
 
-# Simple Taskcomponent
+# Task List component
 
-Let's begin by creating a basic task component and then writing a story for it.
-
-## Flowchart
+To begin developing the TaskBox application, we can add additional pages
 
 <Story of={MarkdownTaskList.PrivateMarkdownTlist} />
+## Flowchart
+<Story of={MermaidTaskList.PrivateMermaidTlist} />
