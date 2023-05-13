@@ -4,7 +4,7 @@ import type { Meta, StoryObj } from '@storybook/angular/';
 
 import { CommonModule } from '@angular/common';
 
-import { TaskListStyleComponent } from './task-list-styles.component';
+import { PureTaskListComponent } from './pure-task-list.component';
 import { TaskStylesComponent } from '../task-styles/task-styles.component';
 import { action } from '@storybook/addon-actions';
 import { MarkdownModule, MarkdownService } from 'ngx-markdown';
@@ -14,18 +14,18 @@ import * as TaskStylesStories from '../task-styles/task-styles.stories';
 import { Task } from '../models/task.model';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
-const meta: Meta<TaskListStyleComponent> = {
+const meta: Meta<PureTaskListComponent> = {
     /* 👇 The title prop is optional.
      * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading
      * to learn how to generate automatic titles
      */
-    title: 'TaskBox/TaskListStyleComponent',
-    component: TaskListStyleComponent,
+    title: 'TaskBox/PureTaskListComponent',
+    component: PureTaskListComponent,
     
     decorators: [
         moduleMetadata({
             //👇 Imports both components to allow component composition with Storybook
-            declarations: [TaskListStyleComponent, TaskStylesComponent],
+            declarations: [PureTaskListComponent, TaskStylesComponent],
             imports: [
               HttpClientModule,
               MarkdownModule.forRoot({ loader: HttpClient }),
@@ -40,7 +40,7 @@ const meta: Meta<TaskListStyleComponent> = {
 };
 
 export default meta;
-type Story = StoryObj<TaskListStyleComponent>;
+type Story = StoryObj<PureTaskListComponent>;
 
 const actionsData = {
     onPinTask: action('onPinTask'),

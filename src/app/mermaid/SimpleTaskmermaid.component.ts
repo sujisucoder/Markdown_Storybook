@@ -1,3 +1,10 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-mermaid',
+  template: `
+
+
 <markdown mermaid  ngPreserveWhitespaces>
   <pre class="mermaid">
     flowchart TD
@@ -6,10 +13,15 @@
     id3-->id4[[1.Default]]
     id3-->id5[[2.Pinned]]
     id3-->id6[[3.Archived]]
-    id3-->id7([give proper styling])
-
-    
-    
    
   </pre>
   </markdown>
+   
+
+  
+  `,
+
+})
+export class MermaidSimpleTaskComponent {
+
+}

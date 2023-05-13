@@ -1,0 +1,17 @@
+import { Canvas, Meta, Story } from "@storybook/blocks";
+
+import * as MarkdownSimpleTask from "../markdown/SimpleTaskmarkdown.stories";
+import * as MermaidSimpleTask from "../mermaid/SimpleTaskmermaid.stories";
+
+import * as simpleTask from "./task.stories";
+
+<Meta of={simpleTask} />
+
+# Task List Component
+
+To begin developing the TaskBox application, we can add additional pages
+
+## Flowchart
+
+<Story of={MermaidSimpleTask.PrivateMermaidSTask} />
+<Story of={MarkdownSimpleTask.PrivateMarkdownSTask} />
