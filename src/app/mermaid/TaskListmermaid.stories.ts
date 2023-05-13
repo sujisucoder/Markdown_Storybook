@@ -15,7 +15,7 @@ const metaDetail: Meta<MermaidTasklistComponent> = {
    * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'TaskListMermaid',
+  title: 'Private/Mermaid',
   component: MermaidTasklistComponent,
   decorators:[
     moduleMetadata({

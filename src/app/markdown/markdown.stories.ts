@@ -15,7 +15,7 @@ const metaDetail: Meta<MarkdownComponent> = {
    * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'Markdown',
+  title: 'Private/Markdown',
   component: MarkdownComponent,
   decorators:[
     moduleMetadata({
