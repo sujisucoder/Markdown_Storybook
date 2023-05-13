@@ -1305,7 +1305,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<MermaidComponent>",
-                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Mermaid',\r\n  component: MermaidComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Mermaid',\r\n  component: MermaidComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
             },
             {
                 "name": "metaDetail",
@@ -1315,7 +1315,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<MermaidTasklistComponent>",
-                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Mermaid',\r\n  component: MermaidTasklistComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidTasklistComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Mermaid',\r\n  component: MermaidTasklistComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidTasklistComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
             },
             {
                 "name": "metaDetail",
@@ -1325,7 +1325,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<MarkdownComponent>",
-                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Markdown',\r\n  component: MarkdownComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Markdown',\r\n  component: MarkdownComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
             },
             {
                 "name": "metaDetail",
@@ -1335,7 +1335,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Meta<MarkdownTaskListComponent>",
-                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Markdown',\r\n  component: MarkdownTaskListComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownTaskListComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Markdown',\r\n  component: MarkdownTaskListComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownTaskListComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
             },
             {
                 "name": "Pinned",
@@ -1559,7 +1559,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<MermaidComponent>",
-                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Mermaid',\r\n  component: MermaidComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Mermaid',\r\n  component: MermaidComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
                 },
                 {
                     "name": "PrivateMermaid",
@@ -1591,7 +1591,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<MermaidTasklistComponent>",
-                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Mermaid',\r\n  component: MermaidTasklistComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidTasklistComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Mermaid',\r\n  component: MermaidTasklistComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MermaidTasklistComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
                 },
                 {
                     "name": "PrivateMermaidTlist",
@@ -1623,7 +1623,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<MarkdownComponent>",
-                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Markdown',\r\n  component: MarkdownComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Markdown',\r\n  component: MarkdownComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
                 },
                 {
                     "name": "PrivateMarkdown",
@@ -1655,7 +1655,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<MarkdownTaskListComponent>",
-                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Markdown',\r\n  component: MarkdownTaskListComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownTaskListComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
+                    "defaultValue": "{\r\n  /* 👇 The title prop is optional.\r\n   * See https://storybook.js.org/docs/angular/configure/overview#configure-story-loading\r\n   * to learn how to generate automatic titles\r\n   */\r\n  title: 'Private/Markdown',\r\n  component: MarkdownTaskListComponent,\r\n  decorators:[\r\n    moduleMetadata({\r\n        //👇 Imports both components to allow component composition with storybook\r\n        declarations: [MarkdownTaskListComponent],\r\n        imports: [            \r\n            CommonModule,\r\n            HttpClientModule,\r\n            MarkdownModule.forRoot({ loader: HttpClient }),\r\n        ]\r\n      }),\r\n  componentWrapperDecorator(story => `<div style=\"margin: 3em\">${story}</div>`)\r\n  ]\r\n}"
                 },
                 {
                     "name": "PrivateMarkdownTlist",
